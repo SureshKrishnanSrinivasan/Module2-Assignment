@@ -14,22 +14,22 @@ padding: 0px;
 	text-align: center;
 }
 
-
-
 .row{
-margin:3px;
-border-color: black
+padding: 10px;
 width:100%;
-
 }
 
 
-.part{
- 
- 	margin: 5px;
- 	border:3px solid black;
- 	background-color: gray;
- 	float:left;
+
+
+.casing{
+	padding: 10px;
+	float:left;
+}
+
+.column{
+  	border:1.5px solid black;
+ 	background-color: gray;	
 }
 
 .section{
@@ -64,14 +64,14 @@ text-align: center;
 
 p{	
 	clear:right;
-	padding:5px;
+	padding:10px;
 }
 
 
 
 @media (min-width: 768px) and (max-width:991px) {
  .col-md-2{
-width: 48%;
+width: 50%;
 
 
 }
@@ -80,7 +80,7 @@ width: 48%;
 
 @media (min-width: 992px){
  .col-ld-3{
-width: 32.3%;
+width: 33.333%;
 
 }
 }
